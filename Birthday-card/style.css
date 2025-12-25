@@ -1,0 +1,23 @@
+img{
+    background-size:cover;
+    height: 300px;
+    width:300px;
+    object-fit:cover;
+    border-radius:100%;
+    border:3px solid black;
+}
+body{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    font-family: "Google Sans", sans-serif;
+    background-color:rgb(65, 92, 65);
+    color:white;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+h1{
+    background-color:black;
+    justify-items: center;
+}

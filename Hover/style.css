@@ -1,0 +1,20 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    gap:20px;
+    background-image:linear-gradient(beige,green);
+}
+.israel, .japan, .america{
+    background-color:white;
+    color:black;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.israel:hover, .japan:hover , .america:hover{
+    background-color:rgb(29, 88, 13);
+    cursor:pointer;
+}

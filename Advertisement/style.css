@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.Card {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    width: 300px; 
+}
+.btn{
+    border-radius:10px;
+    border:1px solid black;
+}
+.highlight{
+        background-color:red;
+        color:white;
+        font-style:italic;
+        font-weight: bold;
+        text-decoration: underline;
+    }

@@ -1,0 +1,47 @@
+body {
+    background-color:white;
+    font-family: Arial, sans-serif; /* Adds a clean font */
+   
+}
+
+.italic {
+    font-style: italic;
+    background-color: yellow;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Card {
+    width: 350px;       /* 1. Increased width slightly to give text breathing room */
+    height: auto;       /* 2. CRITICAL FIX: Changed fixed height to 'auto' so it grows with content */
+    background-color:#ddebfe;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center; /* 3. Centers the image and text vertically */
+    gap: 15px;
+    color:2b2839;
+    border-bottom:4px solid violet;          /* 4. Adds space between the image and the text info */
+}
+
+.Avatar {
+    border: 1px solid black;
+    width: 120px;       /* 5. Set a fixed width for the image so it doesn't take over */
+    height: 120px;      /* 6. Makes the image square */
+    object-fit: cover;  /* 7. Ensures the photo doesn't get squashed/distorted */
+}
+
+.info {
+    font-size: small;
+    display: block;
+}
+
+/* 8. NEW: This removes the huge default gaps between the text lines */
+.info h1, .info h3, .info p {
+    margin: 4px 0; 
+}
+
+.Title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
