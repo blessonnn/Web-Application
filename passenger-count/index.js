@@ -1,12 +1,21 @@
 
-// document.getElementById("count").innerText=5
+
+let countEl=document.getElementById("count")
+//console.log(countEl)
 let count=0
-console.log(count)
 function increment() {
-    console.log("You clicked the increment button!")
+    count++;
+    countEl.innerText=count
+    //console.log(count)
 }
 function decrement() {
-    console.log("You clicked the decrement button!")
+    count--;
+   countEl.innerText=count
+}
+function reset(){
+    count=0;
+    countEl.innerText=count
+
 }
 
 
