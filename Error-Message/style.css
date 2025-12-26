@@ -1,0 +1,25 @@
+body{
+    background-color:grey;
+    text-align:center;
+    font-style:bold;
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width:100%;
+}
+button{
+    border-radius:20px;
+    width:80px;
+    height:30px;
+    background-color:white;
+}
+p{
+    color:red;
+    font-size:15px;
+}
+button:hover{
+    background-color:grey;
+    box-shadow:2px 2px 5px black;
+
+}
