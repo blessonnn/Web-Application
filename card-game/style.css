@@ -1,0 +1,33 @@
+
+body{
+    font-family: "Google Sans", sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    color:blue;
+    margin:50px auto;
+
+}   
+#message,#cards, #sum{
+    font-size:20px;
+    margin: 10px;
+    font-weight: bold;
+    font-style:italic;
+}
+h1{
+    font-size:70px;
+}
+.btn{
+    text-align:center;
+    height:30px;
+    border:2px solid black;
+    border-radius:10px;
+    padding-right:30px;
+    padding-left:30px;
+}
+.buttons{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    gap:10px;
+}

@@ -1,0 +1,59 @@
+body{
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background-color:rgb(0, 0, 0)
+}
+h1{
+    font-size: 50px;
+    margin-top:30px;
+    margin-bottom:1px;
+    font-weight: 700;
+    color:rgb(225, 224, 224);
+    line-height: 1;
+}
+h2{
+    margin-top:1px;
+    color:rgb(46, 194, 64);
+}
+button{
+    margin-top:20px;
+    padding:10px 20px;
+    background-color:rgb(46, 194, 64);
+    color:rgb(225, 224, 224);
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:rgb(36, 147, 49);
+}
+.divider{
+    width:460px;
+    margin-left: 0;
+    border: 1px solid #ddd;
+}
+.password-container{
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap:20px;
+}
+.container{
+    background-color:white;
+    padding:10px;
+    width:200px;
+    border-radius: 5px;
+    border:1px solid #ddd;
+    color:black;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#password1,#password2{
+   margin: 0;
+   color: #000100; 
+   font-weight: bold;
+}

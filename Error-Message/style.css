@@ -1,5 +1,5 @@
 body{
-    background-color:grey;
+    background-color:white;
     text-align:center;
     font-style:bold;
     font-size:20px;
@@ -19,6 +19,6 @@ p{
     font-size:15px;
 }
 button:hover{
-    background-color:grey;
-    box-shadow:2px 2px 5px black;
+    background-color:rgb(184, 181, 181);
+    box-shadow:2px 2px 11px black;
 }

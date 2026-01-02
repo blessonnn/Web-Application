@@ -1,0 +1,25 @@
+.addition, .multiplication, .substraction {
+   border: 1px solid black;
+   border-radius: 10px;
+   height: 20px;
+}
+
+body {
+    background-color: rgb(78, 78, 173);
+    margin: auto;
+    padding: 250px;
+    height: 12px;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;  
+}
+
+#num1, #num2 {
+    text-decoration: underline;
+}
+
+#result {
+    text-decoration: underline;
+    margin-top:20px;
+}   

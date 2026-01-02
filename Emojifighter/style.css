@@ -1,0 +1,20 @@
+body{
+    align-items:center;
+    text-align:center;
+    font-family:'jost', sans-serif;
+}
+#stage{
+    height:500px;
+    background-color:rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+button{
+    margin-top:10px;
+    width:100px;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid black ;
+}
